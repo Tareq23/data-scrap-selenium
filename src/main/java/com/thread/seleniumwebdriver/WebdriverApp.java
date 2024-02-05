@@ -110,17 +110,17 @@ public class WebdriverApp {
 			try {Thread.sleep(25000);}catch(Exception e) {}
 			WebElement webElement = driver.findElement(By.cssSelector(paginationSelector));
 			
+			System.out.println("text: "+webElement.getText());
 			
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", webElement);
-			try {Thread.sleep(500);}catch(Exception e) {}
-			webElement.click();
+//			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", webElement);
+//			try {Thread.sleep(500);}catch(Exception e) {}
+//			webElement.click();
 			
-			WebElement paginationLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(paginationSelector)));
-			List<WebElement> elements = paginationLink.findElements(By.cssSelector(".search-results-item"));
-			System.out.println(i+"'th pages items: "+elements.size());
-//			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			
 		}
+		
+		
+		System.out.println("singlelink scrap done");
 	}
 	
 	
