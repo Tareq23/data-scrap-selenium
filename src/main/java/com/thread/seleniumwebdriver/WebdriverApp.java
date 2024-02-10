@@ -98,24 +98,31 @@ public class WebdriverApp {
 //		
 		
 		int pageSize = driver.findElements(By.cssSelector(cssSelector)).size();
+		
 		System.out.println("page size: "+pageSize);
 		
 		
 		
 		
 		for(int i = 1; i <= pageSize; i++) {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//
-			String paginationSelector = ".pagination-page-list > li > a:nth-child("+i+")";
-			try {Thread.sleep(25000);}catch(Exception e) {}
-			WebElement webElement = driver.findElement(By.cssSelector(paginationSelector));
-			
-			System.out.println("text: "+webElement.getText());
-			
-//			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", webElement);
+//			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			String xPath = "(//ul[@class='pagination-page-list']/li/a)["+i+"]";
+			String paginationSelector = ".pagination-page-list > li > a:nth-child("+2+")";
 //			try {Thread.sleep(500);}catch(Exception e) {}
+//			WebElement webElement = driver.findElement(By.cssSelector(paginationSelector));
+			WebElement webElement = driver.findElement(By.xpath(xPath));
+			
+			System.out.println("webElement");
+			JavascriptExecutor jsExecutor = ((JavascriptExecutor) driver);
+			jsExecutor.executeScript("arguments[0].scrollIntoView(true);", webElement);
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//			WebDriverWait wait = new WebDriverWait(driver, 10);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".spinner-container")));
+			((JavascriptExecutor) driver).executeScript("arguments[0].click();", webElement);
+
 //			webElement.click();
 			
+			System.out.println("text: "+webElement.getText());
 			
 		}
 		

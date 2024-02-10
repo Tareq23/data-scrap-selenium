@@ -1,0 +1,73 @@
+SalesItem [date=Sat Feb 10 00:00:00 BDT 2024, reference=posr-20240210-124147, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=2400.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sat Feb 10 00:00:00 BDT 2024, reference=posr-20240210-124123, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=306.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jan 21 00:00:00 BDT 2024, reference=posr-20240121-014825, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=520.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jan 21 00:00:00 BDT 2024, reference=posr-20240121-011459, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=588.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jan 21 00:00:00 BDT 2024, reference=posr-20240121-010626, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=587.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jan 21 00:00:00 BDT 2024, reference=posr-20240121-010625, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=587.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jan 21 00:00:00 BDT 2024, reference=posr-20240121-010624, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=587.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jan 21 00:00:00 BDT 2024, reference=posr-20240121-011129, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=421.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Dec 03 00:00:00 BDT 2023, reference=posr-20231203-015701, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=1650.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Oct 22 00:00:00 BDT 2023, reference=posr-20231022-012625, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=2250.0, paid=0.0, due=0.0]
+]nSalesItem [date=Tue Sep 19 00:00:00 BDT 2023, reference=posr-20230919-053818, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=1000.0, paid=0.0, due=0.0]
+]nSalesItem [date=Wed Aug 30 00:00:00 BDT 2023, reference=sr-20230831-121712, biller=yousuf, customer=dhiman
++8801111111101, grandTotal=216.0, paid=0.0, due=0.0]
+]nSalesItem [date=Mon Aug 14 00:00:00 BDT 2023, reference=posr-20230814-024251, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=400.0, paid=0.0, due=0.0]
+]nSalesItem [date=Wed Aug 09 00:00:00 BDT 2023, reference=posr-20230809-035308, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=50.0, paid=0.0, due=0.0]
+]nSalesItem [date=Thu Aug 03 00:00:00 BDT 2023, reference=posr-20230804-083647, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=520.0, paid=0.0, due=0.0]
+]nSalesItem [date=Wed Aug 02 00:00:00 BDT 2023, reference=posr-20230802-054505, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=400.0, paid=0.0, due=0.0]
+]nSalesItem [date=Wed Aug 02 00:00:00 BDT 2023, reference=posr-20230802-053849, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=132.0, paid=0.0, due=0.0]
+]nSalesItem [date=Wed Aug 02 00:00:00 BDT 2023, reference=posr-20230802-115711, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=400.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Oct 22 00:00:00 BDT 2023, reference=posr-20231022-012625, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=2250.0, paid=0.0, due=0.0]
+]nSalesItem [date=Tue Sep 19 00:00:00 BDT 2023, reference=posr-20230919-053818, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=1000.0, paid=0.0, due=0.0]
+]nSalesItem [date=Wed Aug 30 00:00:00 BDT 2023, reference=sr-20230831-121712, biller=yousuf, customer=dhiman
++8801111111101, grandTotal=216.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jun 04 00:00:00 BDT 2023, reference=posr-20230604-034829, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=166.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jun 04 00:00:00 BDT 2023, reference=posr-20230604-021435, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=250.0, paid=0.0, due=0.0]
+]nSalesItem [date=Wed May 17 00:00:00 BDT 2023, reference=posr-20230517-013623, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=340.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sat May 06 00:00:00 BDT 2023, reference=posr-20230506-040646, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=1700.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sat Apr 29 00:00:00 BDT 2023, reference=sr-20230429-044151, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=842.0, paid=0.0, due=0.0]
+]nSalesItem [date=Mon Apr 24 00:00:00 BDT 2023, reference=sr-20230424-075649, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=100.0, paid=0.0, due=0.0]
+]nSalesItem [date=Wed Jul 26 00:00:00 BDT 2023, reference=posr-20230726-050639, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=1000.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sat Jul 15 00:00:00 BDT 2023, reference=posr-20230715-042059, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=250.0, paid=0.0, due=0.0]
+]nSalesItem [date=Mon Jun 05 00:00:00 BDT 2023, reference=posr-20230605-030712, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=225.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jun 04 00:00:00 BDT 2023, reference=posr-20230604-034829, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=166.0, paid=0.0, due=0.0]
+]nSalesItem [date=Sun Jun 04 00:00:00 BDT 2023, reference=posr-20230313-053109, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=360.0, paid=0.0, due=0.0]
+]nSalesItem [date=Thu Feb 23 00:00:00 BDT 2023, reference=posr-20230224-115202, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=816.0, paid=0.0, due=0.0]
+]nSalesItem [date=Thu Feb 23 00:00:00 BDT 2023, reference=posr-20230224-011503, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=794.0, paid=0.0, due=0.0]
+]nSalesItem [date=Thu Feb 23 00:00:00 BDT 2023, reference=posr-20230224-011447, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=794.0, paid=0.0, due=0.0]
+]nSalesItem [date=Thu Feb 23 00:00:00 BDT 2023, reference=posr-20230224-011141, biller=yousuf, customer=walk-in-customer
+01923000001, grandTotal=794.0, paid=0.0, due=0.0]
+]n
