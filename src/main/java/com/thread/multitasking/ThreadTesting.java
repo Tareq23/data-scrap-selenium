@@ -1,25 +1,25 @@
 package com.thread.multitasking;
 
-import com.cochrane.review.Stack;
+//import com.cochrane.review.Stack;
 
 public class ThreadTesting {
 
 	public static void main(String[] args) {
 
 		
-		Stack stack = new Stack(5);
+//		Stack stack = new Stack(5);
 		
 		new Thread(() -> {
 			int counter = 0;
 			while(++counter < 10) {
-				System.out.println("Pushed: "+stack.push(100));
+//				System.out.println("Pushed: "+stack.push(100));
 			}
 		}, "pusher").start();
 		
 		new Thread(() -> {
 			int counter = 0;
 			while(++counter < 10) {
-				System.out.println("Popped: "+stack.pop());
+//				System.out.println("Popped: "+stack.pop());
 			}
 		}, "popper").start();
 	

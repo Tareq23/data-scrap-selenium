@@ -10,13 +10,13 @@ public class Topic {
 		this.topicName  = name;
 		this.topicUrl = url;
 	}
-	
 	public String getTopicName() {
 		return topicName;
 	}
 	public String getTopicUrl() {
 		return topicUrl;
 	}
+	
 	public void setTopicName(String topicName) {
 		this.topicName = topicName;
 	}

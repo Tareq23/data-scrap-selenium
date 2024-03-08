@@ -33,8 +33,8 @@ public class ScrapThread extends Thread {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		App.urlList.addAll(list);
-		System.out.println("Inside " + Thread.currentThread().getName() + " , listOfTopicPage: " + list.size());
+//		App.urlList.addAll(list);
+//		System.out.println("Inside " + Thread.currentThread().getName() + " , listOfTopicPage: " + list.size());
 //		list.stream().forEach(System.out::println);
 	}
 
