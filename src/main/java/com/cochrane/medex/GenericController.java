@@ -11,13 +11,14 @@ public class GenericController {
 
 	private String url = "https://medex.com.bd/generics";
 	private int totalPage;
-	private WebDriver driver;
+//	private WebDriver driver;
 	private String xPathLeft;
 	private String xPathRight;
 	
 	private GenericImp genImp;
 	
 	private List<Generic> list ;
+	private Integer collectedGenericsSize;
 	
 	public GenericController()
 	{
@@ -25,7 +26,8 @@ public class GenericController {
 		xPathLeft = "//body[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/a";
 		xPathRight = "//body[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[2]/a";
 		genImp = new GenericImp(allXPath());
-		totalPage = 81;
+		totalPage = 5;
+		collectedGenericsSize = 0;
 	}
 	
 	private Map<String, String> allXPath() {
@@ -39,13 +41,33 @@ public class GenericController {
 		
 		for(int i = 1; i <= totalPage; i++)
 		{
-			driver = ScrapUtil.loadUrl(url+"?page="+i);
+//			driver = 
+			ScrapUtil.loadUrl(url+"?page="+i);
 			list.addAll(genImp.collectList(ScrapUtil.findElements(xPathLeft)));
 			list.addAll(genImp.collectList(ScrapUtil.findElements(xPathRight)));
 		}
 		
 		System.out.println("generics length: "+list.size());
+		this.collectedGenericsSize = list.size();
+	}
+	
+	
+	
+	public Integer getCollectedGenericsSize() {
+		return this.collectedGenericsSize;
+	}
+	
+	public void collectAllGenericsInDetails() throws Exception
+	{
+		if(getCollectedGenericsSize() <= 0) throw new Exception("Generic List is Empty");
+		
+		for(Generic generic : list) {
+			genImp.scrapDetails(generic, url);
+			
+			Thread.sleep(500);
+		}
 		
 	}
+	
 	
 }

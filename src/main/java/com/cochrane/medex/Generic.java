@@ -360,6 +360,20 @@ public class Generic{
 	public void setSlug(String slug) {
 		this.slug = slug;
 	}
+
+	@Override
+	public String toString() {
+		return "Generic [id=" + id + ", name=" + name + ", type=" + type + ", pregnancy_cat=" + pregnancy_cat
+				+ ", contraindications=" + contraindications + ", dosage=" + dosage + ", mode_of_action="
+				+ mode_of_action + ", indication_details=" + indication_details + ", interaction=" + interaction
+				+ ", administration=" + administration + ", side_effects=" + side_effects + ", precautions="
+				+ precautions + ", description=" + description + ", reconstitution=" + reconstitution
+				+ ", duration_of_treatment=" + duration_of_treatment + ", pediatric_uses=" + pediatric_uses
+				+ ", storage_conditions=" + storage_conditions + ", overdose_effects=" + overdose_effects
+				+ ", created_at=" + created_at + ", updated_at=" + updated_at + ", deleted_at=" + deleted_at
+				+ ", extra_data=" + extra_data + ", composition=" + composition + ", status=" + status + ", slug="
+				+ slug + "]";
+	}
 	
 	
     

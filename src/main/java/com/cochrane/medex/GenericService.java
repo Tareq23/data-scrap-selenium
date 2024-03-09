@@ -19,4 +19,6 @@ public interface GenericService {
 	
 	void write(List<Generic> generics);
 	
+	Generic scrapDetails(Generic generic, String url);
+	
 }
